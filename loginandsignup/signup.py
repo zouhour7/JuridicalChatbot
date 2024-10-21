@@ -7,9 +7,9 @@ import bcrypt  # Import bcrypt for password hashing
 # PostgreSQL connection details
 DB_HOST = "localhost"
 DB_PORT = 5432
-DB_NAME = "users"
-DB_USER = "postgres"
-DB_PASSWORD = "amine"
+DB_NAME = "name"
+DB_USER = "user"
+DB_PASSWORD = "pwd"
 
 def get_db_connection():
     """
